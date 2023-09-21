@@ -6,7 +6,23 @@ body {
 a {
   text-decoration: none;
 }
-ul {list-style: none;}
+ul {list-style: none; margin: 0; padding-left: 0;}
+h1, h2, h3, p {margin: 0; }
+img {display: block;}
+
+.container {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto
+}
+
+/** ============== HEADER ==================== */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header-logo {
  color: var(--NAVY-BLUE, #4d5ae5);
@@ -15,6 +31,8 @@ font-size: 18px;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .header-logo-color {
   color: var(--IRIS, #2e2f42);
@@ -23,6 +41,8 @@ font-size: 18px;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -73,6 +93,11 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+
+/** =============================================== */
+
+/** ============== ORDER ========================== */
+
 .order {
   background-color: var(--NAVY-BLUE, #2E2F42);
 }
@@ -100,6 +125,11 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--OCEAN, #404BBF);
 }
+
+/** =============================================== */
+
+/** ============== DESCTIPTION ===================== */
+
 .desc-list-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
 font-size: 20px;
@@ -113,6 +143,11 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+
+/** ================================================ */
+
+/** ============== TEAM ============================ */
+
 .team {
   background-color: #F4F4FD
 }
@@ -142,6 +177,11 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+
+/** =============================================== */
+
+/** ============== PORTFOLIO ====================== */
+
 .portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
@@ -163,6 +203,11 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+
+/** ============================================== */
+
+/** ============== FOOTER ======================== */
+
 .footer {
   background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -189,5 +234,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-
+/** =============================================== */
 
