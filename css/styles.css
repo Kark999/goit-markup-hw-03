@@ -11,7 +11,7 @@ h1, h2, h3, p {margin: 0; }
 img {display: block;}
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto
@@ -129,6 +129,16 @@ background: var(--OCEAN, #404BBF);
 /** =============================================== */
 
 /** ============== DESCTIPTION ===================== */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 .desc-list-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
