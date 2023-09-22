@@ -31,8 +31,7 @@ font-size: 18px;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-top: 25.5px;
-  padding-bottom: 25.5px;
+
 }
 .header-logo-color {
   color: var(--IRIS, #2e2f42);
@@ -41,8 +40,7 @@ font-size: 18px;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-top: 25.5px;
-  padding-bottom: 25.5px;
+
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -100,6 +98,8 @@ letter-spacing: 0.02em;
 
 .order {
   background-color: var(--NAVY-BLUE, #2E2F42);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .order-title {
   color: var(--WHITE, #FFF);
@@ -107,6 +107,11 @@ text-align: center;
 font-size: 56px;
 line-height: 1.07; 
 letter-spacing: 0.02em;
+width: 496px;
+/*padding-top: 188px;
+padding-right: 472px;
+padding-bottom: 292px;
+padding-left: 472px;*/
 }
 .order-btn {
   color: var(--WHITE, #FFF);
@@ -139,6 +144,8 @@ background: var(--OCEAN, #404BBF);
   white-space: nowrap;
   width: 1px;
 }
+.desc {padding-top: 120;
+padding-bottom: 120px;}
 
 .desc-list-subtitle {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -159,10 +166,13 @@ letter-spacing: 0.02em;
 /** ============== TEAM ============================ */
 
 .team {
-  background-color: #F4F4FD
+  background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
+  
 }
 .team-list-item {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -191,6 +201,9 @@ letter-spacing: 0.02em;
 /** =============================================== */
 
 /** ============== PORTFOLIO ====================== */
+
+.portfolio { padding-top: 120px;
+padding-bottom: 120px;}
 
 .portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
