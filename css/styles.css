@@ -73,7 +73,13 @@ img {
   gap: 40px;
 }
 .header-menu-item {
+  display: flex;
   padding: 24px 0;
+}
+.header-address {
+  display: flex;
+  margin-left: auto;
+  font-style: normal;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -102,11 +108,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.header-address {
-  display: flex;
-  margin-left: auto;
-  font-style: normal;
 }
 .header-list-link {
   color: var(--SLATE, #434455);
